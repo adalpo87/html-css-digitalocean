@@ -12,6 +12,12 @@
 .adp-link-nostyle{
   text-decoration: none;
 }
+/* Border */
+.adp-border-b{
+  border-bottom: 1px solid white;
+}
+
+
 /* TEXT */
 
 
@@ -51,25 +57,17 @@
 /* HEADER */
 /* Navbar */
 .debug-nav{
-  height: 200px;
+  height: 80px;
 }
 
-/* jumbotron */
-.debug-jumbo{
+/* MEDIA QUERIES */
+@media all and (max-width: 768px){
+  .wrapper-100{
+    width: 100%;
+  }
+}
+/* .debug-service{
   height: 500px;
-  color: white;
-}
-
-.debug-jumbo-foot{      
-  height: 200px;
-}
-
-/* MAIN */
-/* Deploy */
-
-/* Designed*/
-
-
-
+} */
 
 
