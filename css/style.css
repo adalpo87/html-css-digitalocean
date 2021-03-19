@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper-80{
+  width: 80%;
+  margin: auto;
+}
+
+
+/* Background Color */
+.adp-bg-green{
+  background-color: seagreen;
+}
+.adp-bg-blue{
+  background-color: blue;
+}
+.adp-bg-gray{
+  background-color: gray;
+}
+
+/* HEADER */
+/* Navbar */
+.debug-nav{
+  height: 200px;
+}
+
+/* jumbotron */
+.debug-jumbo{
+  height: 500px;
+  color: white;
+}
+
+.debug-jumbo-foot{
+  height: 200px;
+}
