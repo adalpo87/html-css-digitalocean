@@ -3,14 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.wrapper-80{
-  width: 80%;
+/* Container */
+.wrapper-70{
+  width: 70%;
   margin: auto;
 }
+/* link */
+.adp-link-nostyle{
+  text-decoration: none;
+}
+/* TEXT */
 
 
-/* Background Color */
+
+/* POSITION */
+.adp-rel{
+  position: relative;
+}
+.adp-abs{
+  position: absolute;
+}
+.adp-fix{
+  position: fixed;
+}
+/*Colors and Background Colors */
+.adp-white{
+  color: white;
+}
 .adp-bg-green{
   background-color: seagreen;
 }
@@ -19,6 +38,14 @@
 }
 .adp-bg-gray{
   background-color: gray;
+}
+.adp-bg-aliceblue{
+  background-color: aliceblue;
+}
+
+/* Image */
+.adp-img-fit{
+  width: 100%;
 }
 
 /* HEADER */
@@ -33,6 +60,16 @@
   color: white;
 }
 
-.debug-jumbo-foot{
+.debug-jumbo-foot{      
   height: 200px;
 }
+
+/* MAIN */
+/* Deploy */
+
+/* Designed*/
+
+
+
+
+
