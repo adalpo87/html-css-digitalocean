@@ -70,4 +70,12 @@
   height: 500px;
 } */
 
+.adp-row{
+  width: 100%;
+  border-bottom: 1px solid white;
+  padding: 5px 20px;
+}
 
+.adp-margin-bottom{
+  margin-bottom: 30px;
+}
