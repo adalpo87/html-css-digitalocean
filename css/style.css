@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 /* Container */
 .wrapper-70{
@@ -32,12 +33,25 @@
 .adp-fix{
   position: fixed;
 }
+.adp-va-middle{
+  vertical-align: middle;
+}
+
+
+
+
 /*Colors and Background Colors */
+.adp-black{
+  color: black;
+}
 .adp-white{
   color: white;
 }
 .adp-lightgray{
   color: lightgray;
+}
+.adp-cornflowerblue{
+  color: cornflowerblue;
 }
 .adp-bg-green{
   background-color: seagreen;
@@ -57,27 +71,22 @@
 .adp-bg-white{
   background-color: white;
 }
+.adp-bg-ocean{
+  background-image: url(../img/bg-banner-home.jpg);
+  background-size: cover;
+}
+
 /* Image */
 .adp-img-fit{
   width: 100%;
 }
 
-/* HEADER */
-/* Navbar */
-.debug-nav{
-  height: 80px;
-}
 
-/* MEDIA QUERIES */
-@media all and (max-width: 768px){
-  .wrapper-100{
-    width: 100%;
-  }
-}
 /* MARGIN AND PADDING */
 .adp-row-table{
   border-bottom: 1px solid white;
   padding: 5px 20px;
+  min-width: 410px;
 }
 
 .adp-margin-bottom{
@@ -93,6 +102,86 @@
   padding: 10px 10px;
   border-radius: 5px;
 }
+.adp-btn-xs i{
+  font-size: 20px;
+  border-radius: 2px;
+  padding: 2px 4px;
+  color: cornflowerblue;
+}
+
+/* MEDIA QUERIES */
+@media all and (max-width: 992px){
+  .wrapper-100{
+    width: 100%;
+  }
+}
+
+
+/* HEADER */
+/* Navbar */
+
+.debug-nav{
+  height: 80px;
+  line-height: 80px;
+}
+.adp-img-logo{
+  width: 172px;
+}
+.adp-nav-list ul{
+  min-width: 340px;
+}
+
+.adp-nav-list ul li{
+  display: inline-block;
+  list-style: none;
+  text-align: left;
+  margin-right: 2%;
+  font-size: 15px;
+}
+
+.adp-btn-nav{
+  border: 1px solid cornflowerblue;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: cornflowerblue;
+}
+/* Jumbotron */
+
+    /* Jumbotron-Form */
+.adp-form{
+  background-color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5% 0%;
+  padding: 2% 0%;
+  border-radius: 5px; 
+}
+.adp-input{
+  display: block;
+  width: 90%;
+  height: 50px;
+  margin: 10px auto;
+  border: 1px solid lightgray;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.adp-input img{
+  height: 50%;
+  left: 2%;
+  top: 50%;
+  transform: translatey(-50%);
+}
+
+.adp-submit{
+  
+}
+
+/* MAIN */
+
+
+
+
+/* FOOTER */
 
 .adp-social ul li{
   list-style: none;
