@@ -36,8 +36,14 @@
 .adp-white{
   color: white;
 }
+.adp-lightgray{
+  color: lightgray;
+}
 .adp-bg-green{
   background-color: seagreen;
+}
+.adp-bg-darkblue{
+  background-color: darkblue;
 }
 .adp-bg-blue{
   background-color: blue;
@@ -48,7 +54,9 @@
 .adp-bg-aliceblue{
   background-color: aliceblue;
 }
-
+.adp-bg-white{
+  background-color: white;
+}
 /* Image */
 .adp-img-fit{
   width: 100%;
@@ -66,16 +74,33 @@
     width: 100%;
   }
 }
-/* .debug-service{
-  height: 500px;
-} */
-
-.adp-row{
-  width: 100%;
+/* MARGIN AND PADDING */
+.adp-row-table{
   border-bottom: 1px solid white;
   padding: 5px 20px;
 }
 
 .adp-margin-bottom{
   margin-bottom: 30px;
+}
+
+.adp-padding{
+  padding: 50px 0;
+}
+
+/* Button */
+.adp-btn{
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.adp-social ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.adp-social ul li a{
+  text-decoration: none;
+  color: aliceblue;
 }
