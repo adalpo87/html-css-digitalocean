@@ -4,12 +4,10 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
-
-/* Container */
-.wrapper-80{
-  width: 80%;
-  margin: auto;
+.adp-max-width{
+  max-width: 2100px;
 }
+
 
 /* link */
 
@@ -49,7 +47,7 @@
   color: white;
 }
 .adp-lightgray{
-  color: lightgray;
+  color: gray;
 }
 .adp-cornflowerblue{
   color: cornflowerblue;
@@ -58,10 +56,10 @@
   background-color: seagreen;
 }
 .adp-bg-darkblue{
-  background-color: darkblue;
+  background-color: rgb(19, 19, 71);
 }
 .adp-bg-blue{
-  background-color: blue;
+  background-color: rgb(29, 56, 173);
 }
 .adp-bg-gray{
   background-color: gray;
@@ -76,7 +74,9 @@
   background-image: url(../img/bg-banner-home.jpg);
   background-size: cover;
 }
-
+.adp-bg-blue-gradient{
+  background: linear-gradient(180deg, #3039bd 0%, #090baf 100%);
+}
 
 /* Image */
 .adp-img-fit{
@@ -85,12 +85,6 @@
 
 
 /* MARGIN AND PADDING */
-.adp-row-table{
-  border-bottom: 1px solid white;
-  padding: 5px 20px;
-  min-width: 410px;
-}
-
 .adp-margin-bottom{
   margin-bottom: 30px;
 }
@@ -121,6 +115,9 @@
   .wrapper-100{
     width: 100%;
   }
+  .adp-serv-pad{
+    padding: 0 50px;
+  }
   .adp-main-list ul{
     font-size: 120%;
     line-height: 40px;
@@ -128,16 +125,74 @@
    .adp-deploy{
     text-align: left;
   }
+  .adp-text-table .col-xs-2{
+   font-size: 10px;
+  }
+  .adp-text-table .col-xs-6{
+    font-size: 8px;
+   }
+   .adp-text-table .col-xs-4{
+    font-size: 10px;
+   }
+   .adp-form{
+    background-color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5% 3%;
+    padding: 1% 0%;
+    border-radius: 5px; 
+  }
+  .adp-rocker{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    min-width: 250px;
+  }
 }
 
 @media all and (min-width: 769px) and (max-width: 1199px){
+  .wrapper-80{
+    width: 80%;
+    margin: auto;
+  }
   .adp-md-img img{
     width: 90%;
-  } 
+  }
+  .adp-table-pad-right{
+    padding-right: 100px;
+  }
+  .adp-table-pad-left{
+    padding-left: 100px;
+  }
+  .adp-text-table .col-xs-2{
+    font-size: 10px;
+  }
+  .adp-text-table .col-xs-6{
+     font-size: 8px;
+  }
+  .adp-text-table .col-xs-4{
+     font-size: 10px;
+  }
+  .adp-row-table .adp-row-table2{
+    min-width: 410px;
+  }
+  .adp-form{
+    background-color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5% 0%;
+    padding: 1% 0%;
+    border-radius: 5px; 
+  }
 }
 
 
+
 @media all and (min-width: 1200px){
+  .wrapper-80{
+    width: 80%;
+    margin: auto;
+  }
   .adp-jumbo h2{
     padding-right: 7%;
   }
@@ -147,8 +202,27 @@
   .adp-deploy{
     max-width: 360px;
   }
-}
-
+  .adp-table-pad-right{
+    padding-right: 35px;
+  }
+  .adp-table-pad-left{
+    padding-left: 30px;
+  }
+  .adp-row-table .adp-row-table2{
+    min-width: 410px;
+  }
+  .adp-form{
+    background-color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5% 0%;
+    padding: 1% 0%;
+    border-radius: 5px; 
+  }
+ .adp-foot-fix{
+   
+ }
+ }
 /* ------------------------------------------------------ */
 
 
@@ -207,14 +281,6 @@
 
     /* Jumbotron-Form */
 
-.adp-form{
-  background-color: white;
-  font-size: 20px;
-  font-weight: 700;
-  margin: 5% 0%;
-  padding: 1% 0%;
-  border-radius: 5px; 
-}
 .adp-input{
   display: block;
   width: 90%;
@@ -285,16 +351,108 @@
   position: absolute;
   top: 50%;
   left: -5%;
+  font-size: 30px;
 }
 
 .adp-arrow-abs-right{
   position: absolute;
   top: 50%;
   right: -5%;
+  font-size: 30px;
+}
+.adp-slide-text1{
+  margin: 50px 0;
+}
+.adp-slide-text1 h3{
+  color: rgb(29, 52, 95);
+  font-size: 150%;
+  font-weight: 700; 
+  margin-bottom: 24px;
+}
+.adp-slide-text1 p{
+  font-size: 150%;
+  color: rgb(29, 52, 95);
+}
+
+.adp-slide-text2{
+  margin: 20px 0 50px 0;
+}
+.adp-slide-text2 p{
+  font-weight: 700;
+  font-size: 120%;
+  color: rgb(29, 52, 95);
+}
+/* Main - feature */
+
+.adp-feature-top{
+  margin: 60px auto;
+}
+.adp-feature-top h3{
+ font-size: 300%;
+}
+
+.adp-feature{
+  margin-top: 20px;
+}
+
+.adp-feature h4{
+ margin-top: 20px;
+ font-size: 180%;
+}
+
+.adp-feature p{
+  font-size: 140%;
+}
+.adp-feature a{
+  font-size: 150%;
+  font-weight: 500;
+}
+/* Main - Service */
+.debug-service{
+  padding-top: 40px;
+}
+.adp-table-width {
+ font-size: 200%;
+}
+.adp-row-table{
+  border-bottom: 1px solid white;
+  padding: 10px 0px;
+}
+.adp-row-table2{
+  padding: 10px 0px;
+}
+.adp-row-table div a{
+  color: aqua;
+}
+.adp-row-table2 div a{
+  color: aqua;
+}
+/* designed for developers */
+.adp-rocker {
+ margin-bottom: 30px;
+}
+.adp-margin-bot{
+ margin-bottom: 70px;
+}
+.adp-margin-bot2{
+  margin-bottom: 30px;
+  margin-top: 30px;
+ }
+
+.adp-img-des{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.adp-rocker p{
+  font-size: 150%;
 }
 
 
 /* FOOTER */
+.adp-footer div img{
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
 
 .adp-social ul li{
   list-style: none;
@@ -303,5 +461,10 @@
 
 .adp-social ul li a{
   text-decoration: none;
-  color: aliceblue;
+  color: gray;
 }
+
+.adp-foot-col h4{
+  color: white;
+}
+
