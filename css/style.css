@@ -4,15 +4,16 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+
 /* Container */
-.wrapper-70{
-  width: 70%;
+.wrapper-80{
+  width: 80%;
   margin: auto;
 }
+
 /* link */
-.adp-link-nostyle{
-  text-decoration: none;
-}
+
+
 /* Border */
 .adp-border-b{
   border-bottom: 1px solid white;
@@ -76,6 +77,7 @@
   background-size: cover;
 }
 
+
 /* Image */
 .adp-img-fit{
   width: 100%;
@@ -97,6 +99,7 @@
   padding: 50px 0;
 }
 
+
 /* Button */
 .adp-btn{
   padding: 10px 10px;
@@ -108,6 +111,10 @@
   padding: 2px 4px;
   color: cornflowerblue;
 }
+.adp-btn-style{
+  background-color: cornflowerblue;
+  color: white;
+}
 
 /* MEDIA QUERIES */
 @media all and (max-width: 992px){
@@ -115,14 +122,30 @@
     width: 100%;
   }
 }
+@media all and (min-width: 1200px){
+  .adp-jumbo h2{
+    padding-right: 7%;
+  }
+  .adp-jumbo p{
+    padding-right: 7%;
+  }
+}
+
+/* ------------------------------------------------------ */
 
 
 /* HEADER */
 /* Navbar */
+.adp-nav-fix{
+  position: fixed;
+  z-index: 9999;
+  background-color: white;
+  width: 100%;
+}
 
 .debug-nav{
-  height: 80px;
-  line-height: 80px;
+  height: 70px;
+  line-height: 70px;
 }
 .adp-img-logo{
   width: 172px;
@@ -147,21 +170,40 @@
 }
 /* Jumbotron */
 
+.adp-margin{
+  height: 70px;
+}
+
+.adp-jumbo{
+  margin: 5% auto;
+}
+.adp-jumbo h2{
+  font-size: 380%;
+  line-height: 65px;
+}
+.adp-jumbo p{
+  font-size: 130%;
+  line-height: 35px;
+  color:rgb(191, 195, 199)
+}
+
     /* Jumbotron-Form */
+
 .adp-form{
   background-color: white;
   font-size: 20px;
   font-weight: 700;
   margin: 5% 0%;
-  padding: 2% 0%;
+  padding: 1% 0%;
   border-radius: 5px; 
 }
 .adp-input{
   display: block;
   width: 90%;
-  height: 50px;
+  height: 45px;
+  line-height: 18px;
   margin: 10px auto;
-  border: 1px solid lightgray;
+  border: 1px solid rgb(241, 241, 241);
   padding: 10px 10px;
   border-radius: 5px;
 }
@@ -171,13 +213,40 @@
   top: 50%;
   transform: translatey(-50%);
 }
-
-.adp-submit{
-  
+.adp-form h3{
+  font-size: 140%;
+}
+.adp-form h4{
+  font-size: 140%;
 }
 
-/* MAIN */
+.adp-form p{
+  color: rgb(36, 70, 133);
+  font-size: 80%;
+}
+.adp-form p a{
+  text-decoration: underline;
+  font-size: 80%;
+  color: cornflowerblue;
+}
+/* Jumbo-foot */
 
+.adp-text-jumbo{
+  color: gray;
+  margin: 50px auto;
+}
+
+.adp-link-jumbo{
+  text-decoration: none;
+  margin: 30px auto;
+}
+/* MAIN */
+.adp-main-list ul{
+ list-style: none;
+ text-align: left;
+ border-left: 1px solid gray;
+ padding-left: 5px;
+}
 
 
 
@@ -186,7 +255,7 @@
 .adp-social ul li{
   list-style: none;
   display: inline-block;
-  margin-left: 10px;
+  margin: 20px 20px
 }
 
 .adp-social ul li a{
